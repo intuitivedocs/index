@@ -2,7 +2,7 @@
 layout: page
 title: Intuitive Documentation Site Index
 ---
-Welcome to the {{ site.maintitle}}
+Welcome to the {{ site.maintitle}} Index
 
 Use this page to navigate to all of our documentation sites
 
