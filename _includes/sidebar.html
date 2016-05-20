@@ -13,18 +13,19 @@
             {% assign listclass = 'post' %}
             {% assign spliturl = post.url | split: '/' %}
             {% if spliturl.size == 4 %}
-                {% assign listclass = 'subpost' %}
-            {% elsif  spliturl.size == 5 %}
-                {% assign listclass = 'subsubpost' %}
-            {% elsif  spliturl.size == 6 %}
-                {% assign listclass = 'subsubsubpost' %}    
-            {% endif %}   
-                   <li class="{{listclass}} sidebar-subpost">
+                <li class="subpost sidebar-subpost">
                         <a href="{{ post.url | prepend: site.baseurl  }}">
                          {{post.title}}
                         </a>
-                  </li>  
-              {% endfor %}          
+                </li> 
+            {% elsif  spliturl.size == 5 %}
+                <ul class="subsubpost sidebar-subpost">
+                      <a href="{{ post.url | prepend: site.baseurl  }}">
+                         {{post.title}}
+                      </a>
+                </ul>
+            {% endif %}   
+            {% endfor %}          
                </ul>
             </div>
 
