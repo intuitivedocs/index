@@ -1,0 +1,31 @@
+maintitle: Intuitive Systems Documentation
+title: Intuitive Systems Documentation
+email: support@intuitivesystems.co.uk
+description: 
+baseurl: "/index"
+url: "http://intuitivedocs.github.io/index/"
+fixedNav: 'false'
+theme: grey
+
+# collections
+collections:
+     content:
+        output: true
+
+defaults:
+-
+  scope:
+    path: ""
+    type: "content"
+  values:
+    layout: "post"
+
+
+# Build settings
+permalink: :title.html
+markdown: kramdown
+include: [_pages,categories]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+sass:
+  style: compressed
+
