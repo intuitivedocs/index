@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Landing Page
+title: Intuitive Documentation Site Index
 ---
 Welcome to the {{ site.maintitle}}
 
