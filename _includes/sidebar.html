@@ -8,22 +8,30 @@
             <ul class="sidebar-post">
 
             {% assign sortedPosts = collection.docs| sort: 'url' %}
-            {% for post in sortedPosts %}    
-
-            {% assign listclass = 'post' %}
+            {% for post in sortedPosts %}   
             {% assign spliturl = post.url | split: '/' %}
-            {% if spliturl.size == 4 %}
-                <li class="subpost sidebar-subpost">
+
+              {% if spliturl.size == 3 %}
+                <li class="post sidebar-subpost">
                         <a href="{{ post.url | prepend: site.baseurl  }}">
                          {{post.title}}
                         </a>
                 </li> 
+
+
+
+            {% elsif spliturl.size == 4 %}
+                <ul class="subpost sidebar-subpost">
+                        <a href="{{ post.url | prepend: site.baseurl  }}">
+                         {{post.title}}
+                        </a>
+                </ul> 
             {% elsif  spliturl.size == 5 %}
-                <ul class="subsubpost sidebar-subpost">
+                <li class="subsubpost sidebar-subpost">
                       <a href="{{ post.url | prepend: site.baseurl  }}">
                          {{post.title}}
                       </a>
-                </ul>
+                </li>
             {% endif %}   
             {% endfor %}          
                </ul>
