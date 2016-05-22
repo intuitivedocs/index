@@ -59,24 +59,4 @@ The first and last three lines should be left well alone. This is to do with the
 
 We curate the bits inbetween. To start a new section add in:
 
-{% highlight bash %}
-
-<p class="icon-clipboard">
-	Misc
-</p>
-
-{% end highlight %}
-
-Add a class of the form ``icon-xyz`` to specify the icon appearing on the left of the header. This needs to be updated in the intuitivedocs.github.io/DocumentationSiteTheme sidebar scss file, if the icon is not already in use.
-
-Then add the articles you want. To specify a hierarchy nest the html. They should look like this:
-
-{% highlight bash %}
-
-<li>
-	<a href="{{ site.contentsref }}Relative/Path/From/_content/Folder">
-		Article Title
-	</a>
-</li>
-
-{% end highlight %}
+Test
