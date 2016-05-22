@@ -59,4 +59,10 @@ The first and last three lines should be left well alone. This is to do with the
 
 We curate the bits inbetween. To start a new section add in:
 
-Test
+{% highlight bash %}
+
+<p class="icon-clipboard">
+	Misc
+</p>
+
+{% end highlight %}
