@@ -1,5 +1,5 @@
 ---
-title:  "Jekyll"
+title:  "Documentation Process"
 ---
 Jekyll is the software we use to convert markdown files into our documentation websites.
 

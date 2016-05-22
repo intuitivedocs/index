@@ -19,3 +19,6 @@ Use this page to navigate to all of our documentation sites
 
 - Others
 	- The Travel Industry
+
+
+This site also details the documentation process.
