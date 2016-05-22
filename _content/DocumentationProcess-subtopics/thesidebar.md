@@ -1,8 +1,6 @@
-
 ---
 title:  "The Sidebar"
 ---
-
 The sidebar is a manually controlled HTML file. It is location in Jekyll/_includes/sidebar.html
 
 We have to manually update it. The code looks something like this:
