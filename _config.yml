@@ -6,6 +6,9 @@ baseurl: "/index"
 url: "http://intuitivedocs.github.io/index/"
 fixedNav: 'false'
 theme: grey
+styleurl: "/DocumentationSiteThemes"
+fullstyleurl: "http://intuitivedocs.github.io/DocumentationSiteThemes"
+contentsref: "/DevelopmentTeamProcess/content/" 
 
 # collections
 collections:
