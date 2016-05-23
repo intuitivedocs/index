@@ -15,19 +15,24 @@ We have to manually update it. The code looks something like this:
      <div class="catbloc">          
             <ul class="sidebar-post">
 
-
+                  <!-- This is the first header -->
                   <p class="icon-clipboard">
                     Misc
                   </p>
+
+                  <!-- This is the first list of articles -->
                   <li>
                         <a href="{{ site.contentsref }}Contents">
                          Contents
                         </a>
                   </li> 
 
+                  <!-- This is the second header -->
                   <p class="icon-graph">
                   Test
-                  </p>                             
+                  </p>   
+
+                  <!-- This is the second list of articles -->                          
                    <li>
                         <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/ReviewAndCoaching">
                          Review and Coaching
@@ -45,8 +50,6 @@ We have to manually update it. The code looks something like this:
                             </li>
                         </ul> 
                   </li>
-
-
 
                </ul>
             </div>
@@ -90,7 +93,6 @@ Add a class of the form "icon-xyz" to specify the icon appearing on the left of 
 #### Adding articles
 
 Then add the articles you want. To specify a hierarchy nest the html. They should look like this:
-
 
 {% highlight bash %}
 
