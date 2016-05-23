@@ -78,7 +78,7 @@ We curate the bits inbetween. To start a new section add in:
 {% endhighlight %}
 
 
-Add a class of the form "icon-xyz" to specify the icon appearing on the left of the header. This needs to be updated in the intuitivedocs.github.io/DocumentationSiteTheme sidebar scss file, if the icon is not already in use. The icons we have available are:
+Add a class of the form "icon-xyz" to specify the icon appearing on the left of the header. The icons we have available are:
 
 - calender
 - contract
@@ -89,6 +89,9 @@ Add a class of the form "icon-xyz" to specify the icon appearing on the left of 
 - graph
 - hotel
 - info
+- misc
+
+New icons can be added in sidebar.scss in intuitivedocs/DocumentationThemeSite
 
 #### Adding articles
 
