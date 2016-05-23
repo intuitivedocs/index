@@ -23,5 +23,3 @@ Use this page to navigate to all of our documentation sites
 
 [Development Team Process]: http://intuitivedocs.github.io/DevelopmentTeamProcess/
 [Resources]: http://intuitivedocs.github.io/Resources
-
-This site also details the documentation process.
