@@ -60,9 +60,6 @@ We have to manually update it. The code looks something like this:
 
 The first and last three lines should be left well alone. This is to do with the larger overall page structure.
 
-
-### Adding to the sidebar
-
 #### Adding sections
 
 

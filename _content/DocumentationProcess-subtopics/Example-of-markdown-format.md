@@ -1,6 +1,10 @@
 ---
 title:  "Exemplar markdown"
 ---
+
+This page demonstrates how to write markdown in the correct style for our documentation sites. We use the markdown processor [kramdown] and you can find details about its syntax [here].
+
+
 # Demonstration documentation page
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu rhoncus velit. Quisque ut neque magna. Maecenas luctus varius ligula eu gravida. Vestibulum id purus a sem porta pharetra id nec risus. In sagittis, neque quis lobortis ultricies, diam diam molestie dolor, eget convallis turpis turpis vitae erat. Pellentesque ac facilisis sem. Integer non risus finibus, ornare nisl et, porta ipsum. Sed vestibulum vehicula mi, vitae congue urna ultrices ac.
 
@@ -113,3 +117,6 @@ You can reference an image within the repository with the below markdown, the fi
 The code block below shows the raw markdown that generated the above post.
 
 {% endhighlight %}
+
+[kramdown]: http://kramdown.gettalong.org/
+[here]: http://kramdown.gettalong.org/syntax.html
